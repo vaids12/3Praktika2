@@ -1,0 +1,177 @@
+body {
+    margin: 50px 300px
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    height: 100%;
+
+
+
+}
+
+.title {
+
+    background-color: #dee5e4;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.titleLeft {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+}
+
+#img {
+    border: 1px solid inherit;
+    margin: 30px 10px;
+    background-color: coral;
+    border-radius: 3px;
+
+}
+
+#whats {
+    margin: 35px 10px 30px 50px;
+}
+
+.red {
+    color: red;
+}
+
+
+.titleRight {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 33px 20px 25px 20px;
+}
+
+#botton a {
+
+    border: 1px solid red;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 80px;
+    height: 20px;
+
+
+}
+
+.box {
+
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px 0;
+
+}
+
+.calendar {
+    width: 7%;
+    border: 1px solid #6b6363;
+    margin: 25px 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.number {
+    height: 60%;
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+.drop1 {
+    width: 100%;
+    height: 33px;
+    margin: 0 auto;
+    border: 1x solid black;
+    background-color: red;
+    display: inline-block;
+    color: white;
+    text-align: center;
+
+}
+
+.drop1 a,
+.drop2 a {
+    color: white;
+}
+
+.drop2 {
+    width: 100%;
+    height: 33px;
+    margin: 0 auto;
+    border: 1x solid black;
+    background-color: #6b6363;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    width: auto;
+    padding-left: 20px;
+}
+
+
+h2 {
+    font-size: 150%;
+}
+
+.border1 {
+    border-left: 2px solid #6b6363;
+    padding: 0 10px;
+}
+
+.color {
+    background-color: #dee5e4;
+}
+
+.number8 {
+    width: 9%;
+}
+
+
+.hborder {
+    border-right: 2px solid #6b6363;
+    margin: 10px 0;
+}
+
+.wborder1 {
+    border-bottom: 2px solid #6b6363;
+}
+
+.wborder2 {
+    border-top: 2px solid #6b6363;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 90, 235);
+    font-weight: bold;
+}
