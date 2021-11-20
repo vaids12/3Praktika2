@@ -7,6 +7,9 @@ body {
     flex-flow: column nowrap;
     margin: 0 auto;
     height: 100%;
+    border: 1px solid inherit;
+    border-radius: 10px;
+    overflow: hidden;
 
 
 
