@@ -99,14 +99,19 @@ img {
     align-items: center;
     border-radius: 10px;
     overflow: hidden;
+    background-color: white;
 }
 
 .number {
+   
     height: 60%;
     font-size: 60px;
     color: red;
     font-weight: bold;
+     
 }
+.number8 {
+    width: 9%;}
 
 .drop1 {
     width: 100%;
@@ -154,11 +159,6 @@ h2 {
 .color {
     background-color: #dee5e4;
 }
-
-.number8 {
-    width: 9%;
-}
-
 
 .hborder {
     border-right: 2px solid #6b6363;
